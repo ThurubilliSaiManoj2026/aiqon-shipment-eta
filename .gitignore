@@ -16,3 +16,4 @@ dist/
 *.zip
 artifacts/*
 !artifacts/.gitkeep
+data/generated/

@@ -185,6 +185,7 @@ and exclude training/selection variability.
 | `data/generated/` | Synthetic dataset and provenance, when created |
 | `artifacts/` | Local models/results; excluded from version control |
 
-Report and workflow are prepared. GitHub publication, accessibility review and
-submission remain pending. The optional video is not required. See the
+This repository includes the implementation, reproducibility instructions,
+measured evaluation evidence and the final three-page technical report.
+The optional demo video is not included. See the
 [submission checklist](docs/SUBMISSION_CHECKLIST.md).
