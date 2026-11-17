@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "provenance": "Exports of original local Linux frozen evaluation; Windows transcript reports matching results. Not a download of Windows artifacts.",
+  "source_freeze_sha256": "2ce6ebd9ede5b3e452cecb1155a49f9209b554d9bc7aac4d67dc2bb53bd1290f",
+  "source_model_sha256": "d83b4fd496cd9d70cace9e7e3d64b887f94475084edf04a359d8816a11087251",
+  "source_environment": {
+    "packages": {
+      "joblib": "1.6.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1"
+    },
+    "python_major_minor": [
+      3,
+      12
+    ]
+  },
+  "dataset_csv_sha256": {
+    "checkpoint_inputs.csv": "4eec148871e845478bdb29a32f4eea2dcfbffd9b7a28652b0a2b18a785b35aa5",
+    "journeys.csv": "85f3f4043ffcdf2c28a6d9425df415c727f47807920e537e0ac4d2d23744ec22",
+    "targets.csv": "6ecf9c4b6ce40fb1a78ca8bbdcccfed09e3c43494983a36e224ac100ad9ec0a6"
+  },
+  "frozen_executable_sha256": {
+    "config/evaluation.toml": "84de1c595e14c801d56feaff62accf01410eb3c025ca1be0f809677936d6a66f",
+    "config/simulation.toml": "31b5914cc68be58515c28b26838e72b793558b820a4c273187b3550c170a6005",
+    "config/training.toml": "ec0b5a4d69e13e864f661e10e57e2c5de36df38fe01d07d52a06075487de4224",
+    "docs/FINAL_EVALUATION_PROTOCOL.md": "5ca9cbd0d3186e8f7e64a688018354f16b1023c8724822e42f8eb500f60641ed",
+    "scripts/evaluate_holdout.py": "be87b3198bcd7ed9f494290a3e36de8cc82b95f42469fa4045ebe7e8852a596a",
+    "scripts/freeze_evaluation.py": "87a859537ff203de6ccc3ad4aab7da3a4e8af661e36855811a1f181f9ec0af29",
+    "scripts/generate_data.py": "9001cde304ddcada048849bcdde74be26b14278d04c7e19004369cba9d4c345f",
+    "scripts/predict.py": "bfada0d8732d8f119ae548874bd7b20d1d3d939f6f147f95f0d582e6399129bc",
+    "scripts/prepare_development.py": "5f981d10d71c407ae19b56dc2744f48457e4ffe26dbf874b2d8a3e2aa5aef5e3",
+    "scripts/review_development.py": "2be31634a646d336aa5faba1a36f1aa1177d29d577ef610049a9a0fea65c7de8",
+    "scripts/train_models.py": "09b509194a1857f1dc290cb9f5612c060eba434d59b03236404703836966aab2",
+    "src/shipment_eta/__init__.py": "57c8fb9411250cc3360d15216378b6c2f983bfa0df17ff99b2ff9a3bc81d4a0a",
+    "src/shipment_eta/config.py": "6f35b63f5d01ed6eb14a4bbaff4c645b1c515d7d861f8018256d32c1f5711f27",
+    "src/shipment_eta/dataset_io.py": "0ff61997682c3d36c6d90f7f45659256275c4b8b2ceb57e15b8a642cd10c8ba1",
+    "src/shipment_eta/evaluation.py": "cc17c108ec88a795d32067036b807e4cf2d2005d9f922350002bd7e40346a527",
+    "src/shipment_eta/evaluation_freeze.py": "1e3e50076329619ab362f2e5a31267584aacee3fdddc78a2242c4343b8357c90",
+    "src/shipment_eta/explanations.py": "c52b15de5691d21160403332a941241f2c3f6f632a84e2c214d173510d70b7ba",
+    "src/shipment_eta/features.py": "edc4b876116566a1d6692464d6d5949ff6f4e6ccb7c46a6f0fa3f2be9ecba2a7",
+    "src/shipment_eta/final_evaluation.py": "1a13c743903bf77106ed4b45b94580575e3f8680d5d00c043779066f5779288f",
+    "src/shipment_eta/inference.py": "35ff1002dfc6903d59f5566d3d5e50f61eb1310dbd487625d08cce82e0060c1f",
+    "src/shipment_eta/modeling.py": "f4b3eaeb444c60569c56805a8292545b9f4df60eda8af44a2f354ebd36c1ee82",
+    "src/shipment_eta/preparation.py": "c0c7153570ff620a49ffaa73ee862b462af91921a12c4caaae963006d650a8b0",
+    "src/shipment_eta/robustness.py": "8053053e25fc1a674297a5aa7451679bca85776b7ba4f1b710b2fa4c8b70137a",
+    "src/shipment_eta/schema.py": "a214661fa88c680908d51f6aabeeae2cf505ef767907e4db135cb146513d45fe",
+    "src/shipment_eta/simulation.py": "303ba0dcc8252edf5636070296141cd541aee463c1bd598b9e7477ea9df8a35a",
+    "src/shipment_eta/splitting.py": "dcf66bdbbf58683417dfe8440cfa0741bd091b69ba78f3128ac27a0ade77941e",
+    "src/shipment_eta/stress.py": "dc37bb52f47b4958e9709f8f30dd8efd8a51a8671ddc3f26160a0d87d4d956b2",
+    "src/shipment_eta/timing.py": "2c9e1bb06caf5b082a1fec3347eb7988f3328b59f82c2a086482d688bb6f0219",
+    "src/shipment_eta/training.py": "395b4632cce286a9365108389d7244dd157fccac0b41757b7716fb05da6e59ce"
+  },
+  "files": [
+    {
+      "file": "validation_baselines.csv",
+      "sha256": "fcc6729e39f690c84de83dad0d103f92e95bc69e61b79dba1d83121c69078998",
+      "source_relative_to_original_local_project": "artifacts/stage5_verified/baseline_metrics.csv",
+      "source_sha256": "fcc6729e39f690c84de83dad0d103f92e95bc69e61b79dba1d83121c69078998",
+      "transformation": "Byte-for-byte copy of validation baseline metrics"
+    },
+    {
+      "file": "validation_summary.json",
+      "sha256": "790a4e81436cac5fe5436a4912d50a25f84ba8af964de2d0ee930e854d2d7c93",
+      "source_relative_to_original_local_project": "artifacts/stage6_verified/summary.json",
+      "source_sha256": "790a4e81436cac5fe5436a4912d50a25f84ba8af964de2d0ee930e854d2d7c93",
+      "transformation": "Byte-for-byte copy of model-selection summary"
+    },
+    {
+      "file": "validation_candidates.csv",
+      "sha256": "fc3eb83d17d2c569027ee42da94f26e754923849de89863b06cf5a93792a5c8d",
+      "source_relative_to_original_local_project": "artifacts/stage6_verified/candidate_metrics.csv",
+      "source_sha256": "fc3eb83d17d2c569027ee42da94f26e754923849de89863b06cf5a93792a5c8d",
+      "transformation": "Byte-for-byte copy of fold and pooled candidate metrics"
+    },
+    {
+      "file": "development_review.json",
+      "sha256": "e53a633fe909610bbaff0bebd02f6ea020d237bc170d510c582c68251939fe52",
+      "source_relative_to_original_local_project": "artifacts/stage8_verified_final/summary.json",
+      "source_sha256": "e53a633fe909610bbaff0bebd02f6ea020d237bc170d510c582c68251939fe52",
+      "transformation": "Byte-for-byte copy of development review"
+    },
+    {
+      "file": "holdout_summary.json",
+      "sha256": "12e365a67e76037bfc8b010d67d927ff2e841bda5598e60211c20384116fa493",
+      "source_relative_to_original_local_project": "artifacts/stage9_final_verified/summary.json",
+      "source_sha256": "12e365a67e76037bfc8b010d67d927ff2e841bda5598e60211c20384116fa493",
+      "transformation": "Byte-for-byte copy of final summary"
+    },
+    {
+      "file": "holdout_metrics.csv",
+      "sha256": "025e860f1bcdd7b3fb8134d7ae9862b9298706473024961a80f93c3785e54c15",
+      "source_relative_to_original_local_project": "artifacts/stage9_final_verified/metrics.csv",
+      "source_sha256": "025e860f1bcdd7b3fb8134d7ae9862b9298706473024961a80f93c3785e54c15",
+      "transformation": "Byte-for-byte copy of final metrics"
+    },
+    {
+      "file": "holdout_predictions.csv",
+      "sha256": "c2bf0a5ee9b31261733b2efaa81ecd1a8b052d0778edf698bbe4d2cbc66ecce7",
+      "source_relative_to_original_local_project": "artifacts/stage9_final_verified/holdout_predictions.csv",
+      "source_sha256": "c2bf0a5ee9b31261733b2efaa81ecd1a8b052d0778edf698bbe4d2cbc66ecce7",
+      "transformation": "Byte-for-byte copy of all 180 predictor/shipment rows"
+    },
+    {
+      "file": "holdout_slices.csv",
+      "sha256": "49db9c79cbd80e85a25dda133cf287e7f34b2eddf9061dcd16a9ffa8bc91eb5a",
+      "source_relative_to_original_local_project": "artifacts/stage9_final_verified/slice_metrics.csv",
+      "source_sha256": "49db9c79cbd80e85a25dda133cf287e7f34b2eddf9061dcd16a9ffa8bc91eb5a",
+      "transformation": "Byte-for-byte copy of descriptive slices"
+    },
+    {
+      "file": "first_holdout_explanation.json",
+      "sha256": "ce7e8664352175c2e54fde0d5edfb7e1fb013a8bac4a3892889fbf89fa3405a4",
+      "source_relative_to_original_local_project": "artifacts/stage9_final_verified/holdout_explanations.json",
+      "source_sha256": "63a0583fd2ac9ffcab0cb7e2a7a5e65964ae46f44def1a40f4bf32bfb63161bb",
+      "transformation": "First-in-time holdout record SHP-000241 extracted without value changes"
+    },
+    {
+      "file": "dataset_audit.json",
+      "sha256": "0a9df7f4761876f646abdd4b22ff7067194627db2a6cf192673ae058d246675f",
+      "source_relative_to_review_replay": "data/generated/audit.json",
+      "transformation": "Exact copy from Stage 12 isolated replay; no model or settings changes"
+    },
+    {
+      "file": "simulation_config.json",
+      "sha256": "8e702280f53dee4b0fea65805688fda4830aa12cd847f7e7981847291ca7eedf",
+      "source_relative_to_review_replay": "data/generated/simulation_config.json",
+      "transformation": "Exact copy from Stage 12 isolated replay; no model or settings changes"
+    },
+    {
+      "file": "split_manifest.json",
+      "sha256": "9617f91b6aee912a82359e4b3022700aff3dca526ca3bb5d14c4f5ae28407dd9",
+      "source_relative_to_review_replay": "artifacts/stage5/split_manifest.json",
+      "transformation": "Exact copy from Stage 12 isolated replay; no model or settings changes"
+    }
+  ]
+}

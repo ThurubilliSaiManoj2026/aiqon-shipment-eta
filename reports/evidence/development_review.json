@@ -1,0 +1,33 @@
+{
+  "development_stress_shipments": 237,
+  "directional_decreases": {
+    "congestion": 0,
+    "inland_plan": 0,
+    "later_arrival": 0
+  },
+  "holdout_scored": false,
+  "interpretation": "Selected validation diagnostics and unlabeled input-response checks; not final holdout performance.",
+  "invalid_input_cases": 8,
+  "invalid_inputs_rejected": 8,
+  "model_refitted": false,
+  "paired_vs_best_baseline": {
+    "baseline": "carry_forward",
+    "better": 77,
+    "mean_absolute_error_improvement_h": 1.8178285864726969,
+    "median_absolute_error_improvement_h": 1.6618958667897226,
+    "n": 120,
+    "predictor": "ridge_propagation_alpha_10",
+    "tied": 0,
+    "worse": 43
+  },
+  "predictor": "ridge_propagation_alpha_10",
+  "predictor_changed": false,
+  "reserved_holdout_shipments": 60,
+  "schema_version": 1,
+  "selected_validation_eta_mae_h": 5.327633161963231,
+  "selected_validation_eta_max_abs_error_h": 37.40690258850139,
+  "selected_validation_eta_p95_abs_error_h": 19.008717534326355,
+  "stress_rows_outside_training_ranges": 584,
+  "stress_scenario_rows": 2133,
+  "validation_shipments": 120
+}

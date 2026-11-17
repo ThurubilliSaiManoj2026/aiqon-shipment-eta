@@ -1,0 +1,6 @@
+# Declared before running learned-model comparisons. Holdout is never scored here.
+schema_version = 1
+feature_sets = ["base", "propagation"]
+ridge_alphas = [0.1, 1.0, 10.0, 100.0]
+ridge_solver = "svd"
+selection_mae_tolerance_h = 0.05

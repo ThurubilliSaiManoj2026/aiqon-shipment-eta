@@ -1,0 +1,2794 @@
+{
+  "checked_claims": 432,
+  "all_passed": true,
+  "metric_tolerance_h": 1e-09,
+  "explanation_tolerance_h": 1e-10,
+  "checks": [
+    {
+      "claim": "frozen:config/evaluation.toml",
+      "actual": "84de1c595e14c801d56feaff62accf01410eb3c025ca1be0f809677936d6a66f",
+      "expected": "84de1c595e14c801d56feaff62accf01410eb3c025ca1be0f809677936d6a66f",
+      "passed": true
+    },
+    {
+      "claim": "frozen:config/simulation.toml",
+      "actual": "31b5914cc68be58515c28b26838e72b793558b820a4c273187b3550c170a6005",
+      "expected": "31b5914cc68be58515c28b26838e72b793558b820a4c273187b3550c170a6005",
+      "passed": true
+    },
+    {
+      "claim": "frozen:config/training.toml",
+      "actual": "ec0b5a4d69e13e864f661e10e57e2c5de36df38fe01d07d52a06075487de4224",
+      "expected": "ec0b5a4d69e13e864f661e10e57e2c5de36df38fe01d07d52a06075487de4224",
+      "passed": true
+    },
+    {
+      "claim": "frozen:docs/FINAL_EVALUATION_PROTOCOL.md",
+      "actual": "5ca9cbd0d3186e8f7e64a688018354f16b1023c8724822e42f8eb500f60641ed",
+      "expected": "5ca9cbd0d3186e8f7e64a688018354f16b1023c8724822e42f8eb500f60641ed",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/evaluate_holdout.py",
+      "actual": "be87b3198bcd7ed9f494290a3e36de8cc82b95f42469fa4045ebe7e8852a596a",
+      "expected": "be87b3198bcd7ed9f494290a3e36de8cc82b95f42469fa4045ebe7e8852a596a",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/freeze_evaluation.py",
+      "actual": "87a859537ff203de6ccc3ad4aab7da3a4e8af661e36855811a1f181f9ec0af29",
+      "expected": "87a859537ff203de6ccc3ad4aab7da3a4e8af661e36855811a1f181f9ec0af29",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/generate_data.py",
+      "actual": "9001cde304ddcada048849bcdde74be26b14278d04c7e19004369cba9d4c345f",
+      "expected": "9001cde304ddcada048849bcdde74be26b14278d04c7e19004369cba9d4c345f",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/predict.py",
+      "actual": "bfada0d8732d8f119ae548874bd7b20d1d3d939f6f147f95f0d582e6399129bc",
+      "expected": "bfada0d8732d8f119ae548874bd7b20d1d3d939f6f147f95f0d582e6399129bc",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/prepare_development.py",
+      "actual": "5f981d10d71c407ae19b56dc2744f48457e4ffe26dbf874b2d8a3e2aa5aef5e3",
+      "expected": "5f981d10d71c407ae19b56dc2744f48457e4ffe26dbf874b2d8a3e2aa5aef5e3",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/review_development.py",
+      "actual": "2be31634a646d336aa5faba1a36f1aa1177d29d577ef610049a9a0fea65c7de8",
+      "expected": "2be31634a646d336aa5faba1a36f1aa1177d29d577ef610049a9a0fea65c7de8",
+      "passed": true
+    },
+    {
+      "claim": "frozen:scripts/train_models.py",
+      "actual": "09b509194a1857f1dc290cb9f5612c060eba434d59b03236404703836966aab2",
+      "expected": "09b509194a1857f1dc290cb9f5612c060eba434d59b03236404703836966aab2",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/__init__.py",
+      "actual": "57c8fb9411250cc3360d15216378b6c2f983bfa0df17ff99b2ff9a3bc81d4a0a",
+      "expected": "57c8fb9411250cc3360d15216378b6c2f983bfa0df17ff99b2ff9a3bc81d4a0a",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/config.py",
+      "actual": "6f35b63f5d01ed6eb14a4bbaff4c645b1c515d7d861f8018256d32c1f5711f27",
+      "expected": "6f35b63f5d01ed6eb14a4bbaff4c645b1c515d7d861f8018256d32c1f5711f27",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/dataset_io.py",
+      "actual": "0ff61997682c3d36c6d90f7f45659256275c4b8b2ceb57e15b8a642cd10c8ba1",
+      "expected": "0ff61997682c3d36c6d90f7f45659256275c4b8b2ceb57e15b8a642cd10c8ba1",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/evaluation.py",
+      "actual": "cc17c108ec88a795d32067036b807e4cf2d2005d9f922350002bd7e40346a527",
+      "expected": "cc17c108ec88a795d32067036b807e4cf2d2005d9f922350002bd7e40346a527",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/evaluation_freeze.py",
+      "actual": "1e3e50076329619ab362f2e5a31267584aacee3fdddc78a2242c4343b8357c90",
+      "expected": "1e3e50076329619ab362f2e5a31267584aacee3fdddc78a2242c4343b8357c90",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/explanations.py",
+      "actual": "c52b15de5691d21160403332a941241f2c3f6f632a84e2c214d173510d70b7ba",
+      "expected": "c52b15de5691d21160403332a941241f2c3f6f632a84e2c214d173510d70b7ba",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/features.py",
+      "actual": "edc4b876116566a1d6692464d6d5949ff6f4e6ccb7c46a6f0fa3f2be9ecba2a7",
+      "expected": "edc4b876116566a1d6692464d6d5949ff6f4e6ccb7c46a6f0fa3f2be9ecba2a7",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/final_evaluation.py",
+      "actual": "1a13c743903bf77106ed4b45b94580575e3f8680d5d00c043779066f5779288f",
+      "expected": "1a13c743903bf77106ed4b45b94580575e3f8680d5d00c043779066f5779288f",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/inference.py",
+      "actual": "35ff1002dfc6903d59f5566d3d5e50f61eb1310dbd487625d08cce82e0060c1f",
+      "expected": "35ff1002dfc6903d59f5566d3d5e50f61eb1310dbd487625d08cce82e0060c1f",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/modeling.py",
+      "actual": "f4b3eaeb444c60569c56805a8292545b9f4df60eda8af44a2f354ebd36c1ee82",
+      "expected": "f4b3eaeb444c60569c56805a8292545b9f4df60eda8af44a2f354ebd36c1ee82",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/preparation.py",
+      "actual": "c0c7153570ff620a49ffaa73ee862b462af91921a12c4caaae963006d650a8b0",
+      "expected": "c0c7153570ff620a49ffaa73ee862b462af91921a12c4caaae963006d650a8b0",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/robustness.py",
+      "actual": "8053053e25fc1a674297a5aa7451679bca85776b7ba4f1b710b2fa4c8b70137a",
+      "expected": "8053053e25fc1a674297a5aa7451679bca85776b7ba4f1b710b2fa4c8b70137a",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/schema.py",
+      "actual": "a214661fa88c680908d51f6aabeeae2cf505ef767907e4db135cb146513d45fe",
+      "expected": "a214661fa88c680908d51f6aabeeae2cf505ef767907e4db135cb146513d45fe",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/simulation.py",
+      "actual": "303ba0dcc8252edf5636070296141cd541aee463c1bd598b9e7477ea9df8a35a",
+      "expected": "303ba0dcc8252edf5636070296141cd541aee463c1bd598b9e7477ea9df8a35a",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/splitting.py",
+      "actual": "dcf66bdbbf58683417dfe8440cfa0741bd091b69ba78f3128ac27a0ade77941e",
+      "expected": "dcf66bdbbf58683417dfe8440cfa0741bd091b69ba78f3128ac27a0ade77941e",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/stress.py",
+      "actual": "dc37bb52f47b4958e9709f8f30dd8efd8a51a8671ddc3f26160a0d87d4d956b2",
+      "expected": "dc37bb52f47b4958e9709f8f30dd8efd8a51a8671ddc3f26160a0d87d4d956b2",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/timing.py",
+      "actual": "2c9e1bb06caf5b082a1fec3347eb7988f3328b59f82c2a086482d688bb6f0219",
+      "expected": "2c9e1bb06caf5b082a1fec3347eb7988f3328b59f82c2a086482d688bb6f0219",
+      "passed": true
+    },
+    {
+      "claim": "frozen:src/shipment_eta/training.py",
+      "actual": "395b4632cce286a9365108389d7244dd157fccac0b41757b7716fb05da6e59ce",
+      "expected": "395b4632cce286a9365108389d7244dd157fccac0b41757b7716fb05da6e59ce",
+      "passed": true
+    },
+    {
+      "claim": "package:cloudpickle",
+      "actual": "3.1.2",
+      "expected": "3.1.2",
+      "passed": true
+    },
+    {
+      "claim": "package:colorama",
+      "actual": "0.4.6",
+      "expected": "0.4.6",
+      "passed": true
+    },
+    {
+      "claim": "package:contourpy",
+      "actual": "1.4.0",
+      "expected": "1.4.0",
+      "passed": true
+    },
+    {
+      "claim": "package:cycler",
+      "actual": "0.12.1",
+      "expected": "0.12.1",
+      "passed": true
+    },
+    {
+      "claim": "package:fonttools",
+      "actual": "4.68.0",
+      "expected": "4.68.0",
+      "passed": true
+    },
+    {
+      "claim": "package:iniconfig",
+      "actual": "2.3.1",
+      "expected": "2.3.1",
+      "passed": true
+    },
+    {
+      "claim": "package:joblib",
+      "actual": "1.6.0",
+      "expected": "1.6.0",
+      "passed": true
+    },
+    {
+      "claim": "package:kiwisolver",
+      "actual": "1.5.1",
+      "expected": "1.5.1",
+      "passed": true
+    },
+    {
+      "claim": "package:matplotlib",
+      "actual": "3.11.2",
+      "expected": "3.11.2",
+      "passed": true
+    },
+    {
+      "claim": "package:narwhals",
+      "actual": "2.28.0",
+      "expected": "2.28.0",
+      "passed": true
+    },
+    {
+      "claim": "package:numpy",
+      "actual": "2.5.4",
+      "expected": "2.5.4",
+      "passed": true
+    },
+    {
+      "claim": "package:packaging",
+      "actual": "26.3",
+      "expected": "26.3",
+      "passed": true
+    },
+    {
+      "claim": "package:pandas",
+      "actual": "3.1.1",
+      "expected": "3.1.1",
+      "passed": true
+    },
+    {
+      "claim": "package:pillow",
+      "actual": "13.0.0",
+      "expected": "13.0.0",
+      "passed": true
+    },
+    {
+      "claim": "package:pluggy",
+      "actual": "1.7.0",
+      "expected": "1.7.0",
+      "passed": true
+    },
+    {
+      "claim": "package:Pygments",
+      "actual": "2.21.0",
+      "expected": "2.21.0",
+      "passed": true
+    },
+    {
+      "claim": "package:pyparsing",
+      "actual": "3.3.3",
+      "expected": "3.3.3",
+      "passed": true
+    },
+    {
+      "claim": "package:pytest",
+      "actual": "9.2.0",
+      "expected": "9.2.0",
+      "passed": true
+    },
+    {
+      "claim": "package:python-dateutil",
+      "actual": "4.0.0",
+      "expected": "4.0.0",
+      "passed": true
+    },
+    {
+      "claim": "package:scikit-learn",
+      "actual": "1.9.1",
+      "expected": "1.9.1",
+      "passed": true
+    },
+    {
+      "claim": "package:scipy",
+      "actual": "1.18.1",
+      "expected": "1.18.1",
+      "passed": true
+    },
+    {
+      "claim": "package:threadpoolctl",
+      "actual": "3.8.0",
+      "expected": "3.8.0",
+      "passed": true
+    },
+    {
+      "claim": "package:tzdata",
+      "actual": "2026.6",
+      "expected": "2026.6",
+      "passed": true
+    },
+    {
+      "claim": "shipment_count",
+      "actual": 300,
+      "expected": 300,
+      "passed": true
+    },
+    {
+      "claim": "unique_shipments",
+      "actual": 300,
+      "expected": 300,
+      "passed": true
+    },
+    {
+      "claim": "route_counts",
+      "actual": [
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "expected": [
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "passed": true
+    },
+    {
+      "claim": "input_columns",
+      "actual": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "claim": "early",
+      "actual": 89,
+      "expected": 89,
+      "passed": true
+    },
+    {
+      "claim": "late",
+      "actual": 211,
+      "expected": 211,
+      "passed": true
+    },
+    {
+      "claim": "recovery",
+      "actual": 53,
+      "expected": 53,
+      "passed": true
+    },
+    {
+      "claim": "amplification",
+      "actual": 110,
+      "expected": 110,
+      "passed": true
+    },
+    {
+      "claim": "independent_remaining_max_difference_h",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "independent_signed_max_difference_h",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "development_n",
+      "actual": 237,
+      "expected": 237,
+      "passed": true
+    },
+    {
+      "claim": "holdout_n",
+      "actual": 60,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "claim": "excluded_n",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "claim": "fold_training_n",
+      "actual": [
+        114,
+        153,
+        194
+      ],
+      "expected": [
+        114,
+        153,
+        194
+      ],
+      "passed": true
+    },
+    {
+      "claim": "fold_validation_n",
+      "actual": [
+        40,
+        40,
+        40
+      ],
+      "expected": [
+        40,
+        40,
+        40
+      ],
+      "passed": true
+    },
+    {
+      "claim": "fold_excluded_n",
+      "actual": [
+        3,
+        4,
+        3
+      ],
+      "expected": [
+        3,
+        4,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:eta_mae_h",
+      "actual": 10.958011044382458,
+      "expected": 10.958011044382458,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:eta_rmse_h",
+      "actual": 14.728866373496395,
+      "expected": 14.728866373496395,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:eta_bias_h",
+      "actual": -7.750761483720764,
+      "expected": -7.750761483720764,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:delay_mae_h",
+      "actual": 9.354386264051529,
+      "expected": 9.354386264051529,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:eta_mae_h",
+      "actual": 7.175114692318999,
+      "expected": 7.175114692318999,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:eta_rmse_h",
+      "actual": 9.062036401662928,
+      "expected": 9.062036401662928,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:eta_bias_h",
+      "actual": 1.4570304349382774,
+      "expected": 1.4570304349382774,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:delay_mae_h",
+      "actual": 5.64036276952784,
+      "expected": 5.64036276952784,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:eta_mae_h",
+      "actual": 12.135758707973492,
+      "expected": 12.135758707973492,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:eta_rmse_h",
+      "actual": 17.496886221363553,
+      "expected": 17.496886221363553,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:eta_bias_h",
+      "actual": -9.603508323407562,
+      "expected": -9.603508323407562,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:delay_mae_h",
+      "actual": 10.869633515690424,
+      "expected": 10.869633515690424,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_2:clipped_count",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:eta_mae_h",
+      "actual": 6.855394317280118,
+      "expected": 6.855394317280118,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:eta_rmse_h",
+      "actual": 10.221331466665582,
+      "expected": 10.221331466665582,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:eta_bias_h",
+      "actual": -0.289863297790646,
+      "expected": -0.289863297790646,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:delay_mae_h",
+      "actual": 5.753189433716014,
+      "expected": 5.753189433716014,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:eta_mae_h",
+      "actual": 8.874513214399917,
+      "expected": 8.874513214399917,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:eta_rmse_h",
+      "actual": 12.680614263336228,
+      "expected": 12.680614263336228,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:eta_bias_h",
+      "actual": -4.530519528864069,
+      "expected": -4.530519528864069,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:delay_mae_h",
+      "actual": 6.70251637163193,
+      "expected": 6.70251637163193,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:eta_mae_h",
+      "actual": 7.405876235708666,
+      "expected": 7.405876235708666,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:eta_rmse_h",
+      "actual": 10.100185854728412,
+      "expected": 10.100185854728412,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:eta_bias_h",
+      "actual": 1.8498543136527084,
+      "expected": 1.8498543136527084,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:delay_mae_h",
+      "actual": 5.415859530533661,
+      "expected": 5.415859530533661,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:eta_mae_h",
+      "actual": 10.656094322251958,
+      "expected": 10.656094322251958,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:eta_rmse_h",
+      "actual": 15.098327834423483,
+      "expected": 15.098327834423483,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:eta_bias_h",
+      "actual": -7.294929778664131,
+      "expected": -7.294929778664131,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:delay_mae_h",
+      "actual": 8.97551205045796,
+      "expected": 8.97551205045796,
+      "passed": true
+    },
+    {
+      "claim": "stage5:scheduled:pooled_validation:clipped_count",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:eta_mae_h",
+      "actual": 7.145461748435929,
+      "expected": 7.145461748435929,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:eta_rmse_h",
+      "actual": 9.808327669155565,
+      "expected": 9.808327669155565,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:eta_bias_h",
+      "actual": 1.0056738169334463,
+      "expected": 1.0056738169334463,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:delay_mae_h",
+      "actual": 5.603137244592505,
+      "expected": 5.603137244592505,
+      "passed": true
+    },
+    {
+      "claim": "stage5:carry_forward:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:eta_mae_h",
+      "actual": 4.6624641109360905,
+      "expected": 4.6624641109360905,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:eta_rmse_h",
+      "actual": 6.502470423097103,
+      "expected": 6.502470423097103,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:eta_bias_h",
+      "actual": 1.4377141021773125,
+      "expected": 1.4377141021773125,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:delay_mae_h",
+      "actual": 3.545207589931014,
+      "expected": 3.545207589931014,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:eta_mae_h",
+      "actual": 6.395278564034333,
+      "expected": 6.395278564034333,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:eta_rmse_h",
+      "actual": 8.992028290495817,
+      "expected": 8.992028290495817,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:eta_bias_h",
+      "actual": -0.593336938393333,
+      "expected": -0.593336938393333,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:delay_mae_h",
+      "actual": 5.392019577100222,
+      "expected": 5.392019577100222,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:eta_mae_h",
+      "actual": 5.230710232568583,
+      "expected": 5.230710232568583,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:eta_rmse_h",
+      "actual": 8.806715207068317,
+      "expected": 8.806715207068317,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:eta_bias_h",
+      "actual": 0.6490750774146253,
+      "expected": 0.6490750774146253,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:delay_mae_h",
+      "actual": 3.7586967061612087,
+      "expected": 3.7586967061612087,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:eta_mae_h",
+      "actual": 5.429484302513002,
+      "expected": 5.429484302513002,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:eta_rmse_h",
+      "actual": 8.179179402986955,
+      "expected": 8.179179402986955,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:eta_bias_h",
+      "actual": 0.4978174137328679,
+      "expected": 0.4978174137328679,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:delay_mae_h",
+      "actual": 4.231974624397481,
+      "expected": 4.231974624397481,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_0.1:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:eta_mae_h",
+      "actual": 4.664764243997313,
+      "expected": 4.664764243997313,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:eta_rmse_h",
+      "actual": 6.510651697225787,
+      "expected": 6.510651697225787,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:eta_bias_h",
+      "actual": 1.4320228613646597,
+      "expected": 1.4320228613646597,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:delay_mae_h",
+      "actual": 3.543485745629229,
+      "expected": 3.543485745629229,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:eta_mae_h",
+      "actual": 6.379870983659979,
+      "expected": 6.379870983659979,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:eta_rmse_h",
+      "actual": 8.98905243018123,
+      "expected": 8.98905243018123,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:eta_bias_h",
+      "actual": -0.595940611923757,
+      "expected": -0.595940611923757,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:delay_mae_h",
+      "actual": 5.379981019339631,
+      "expected": 5.379981019339631,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:eta_mae_h",
+      "actual": 5.2318583038235005,
+      "expected": 5.2318583038235005,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:eta_rmse_h",
+      "actual": 8.804125181117241,
+      "expected": 8.804125181117241,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:eta_bias_h",
+      "actual": 0.6536702224102223,
+      "expected": 0.6536702224102223,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:delay_mae_h",
+      "actual": 3.7582081190670493,
+      "expected": 3.7582081190670493,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:eta_mae_h",
+      "actual": 5.425497843826931,
+      "expected": 5.425497843826931,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:eta_rmse_h",
+      "actual": 8.179329013228383,
+      "expected": 8.179329013228383,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:eta_bias_h",
+      "actual": 0.4965841572837083,
+      "expected": 0.4965841572837083,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:delay_mae_h",
+      "actual": 4.2272249613453035,
+      "expected": 4.2272249613453035,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_1:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:eta_mae_h",
+      "actual": 4.685451777261285,
+      "expected": 4.685451777261285,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:eta_rmse_h",
+      "actual": 6.6086435197900615,
+      "expected": 6.6086435197900615,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:eta_bias_h",
+      "actual": 1.376722670236146,
+      "expected": 1.376722670236146,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:delay_mae_h",
+      "actual": 3.515355392057715,
+      "expected": 3.515355392057715,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:eta_mae_h",
+      "actual": 6.2332263783156465,
+      "expected": 6.2332263783156465,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:eta_rmse_h",
+      "actual": 8.975031500611372,
+      "expected": 8.975031500611372,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:eta_bias_h",
+      "actual": -0.6216513648528681,
+      "expected": -0.6216513648528681,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:delay_mae_h",
+      "actual": 5.265512913962882,
+      "expected": 5.265512913962882,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:eta_mae_h",
+      "actual": 5.25994371206766,
+      "expected": 5.25994371206766,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:eta_rmse_h",
+      "actual": 8.784909624989304,
+      "expected": 8.784909624989304,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:eta_bias_h",
+      "actual": 0.697121779848813,
+      "expected": 0.697121779848813,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:delay_mae_h",
+      "actual": 3.7665775602601044,
+      "expected": 3.7665775602601044,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:eta_mae_h",
+      "actual": 5.39287395588153,
+      "expected": 5.39287395588153,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:eta_rmse_h",
+      "actual": 8.193493286908813,
+      "expected": 8.193493286908813,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:eta_bias_h",
+      "actual": 0.4840643617440302,
+      "expected": 0.4840643617440302,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:delay_mae_h",
+      "actual": 4.1824819554269,
+      "expected": 4.1824819554269,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_10:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:eta_mae_h",
+      "actual": 6.022360782869007,
+      "expected": 6.022360782869007,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:eta_rmse_h",
+      "actual": 7.8863449910070225,
+      "expected": 7.8863449910070225,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:eta_bias_h",
+      "actual": 0.9755782169441046,
+      "expected": 0.9755782169441046,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:delay_mae_h",
+      "actual": 4.6113373758961815,
+      "expected": 4.6113373758961815,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:eta_mae_h",
+      "actual": 6.300407499912014,
+      "expected": 6.300407499912014,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:eta_rmse_h",
+      "actual": 9.53710377235586,
+      "expected": 9.53710377235586,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:eta_bias_h",
+      "actual": -0.8300427951195694,
+      "expected": -0.8300427951195694,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:delay_mae_h",
+      "actual": 5.27365186263159,
+      "expected": 5.27365186263159,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:eta_mae_h",
+      "actual": 6.204921236460125,
+      "expected": 6.204921236460125,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:eta_rmse_h",
+      "actual": 8.956864286439295,
+      "expected": 8.956864286439295,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:eta_bias_h",
+      "actual": 0.9744824834665554,
+      "expected": 0.9744824834665554,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:delay_mae_h",
+      "actual": 4.619815789497201,
+      "expected": 4.619815789497201,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:eta_mae_h",
+      "actual": 6.175896506413716,
+      "expected": 6.175896506413716,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:eta_rmse_h",
+      "actual": 8.81998117019074,
+      "expected": 8.81998117019074,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:eta_bias_h",
+      "actual": 0.37333930176369656,
+      "expected": 0.37333930176369656,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:delay_mae_h",
+      "actual": 4.834935009341658,
+      "expected": 4.834935009341658,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_base_alpha_100:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:eta_mae_h",
+      "actual": 4.255951777144444,
+      "expected": 4.255951777144444,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:eta_rmse_h",
+      "actual": 6.233061940124456,
+      "expected": 6.233061940124456,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:eta_bias_h",
+      "actual": 0.5712497439466391,
+      "expected": 0.5712497439466391,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:delay_mae_h",
+      "actual": 3.4028435362021527,
+      "expected": 3.4028435362021527,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:eta_mae_h",
+      "actual": 6.306560820148535,
+      "expected": 6.306560820148535,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:eta_rmse_h",
+      "actual": 9.019533463447132,
+      "expected": 9.019533463447132,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:eta_bias_h",
+      "actual": -0.5147630520113682,
+      "expected": -0.5147630520113682,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:delay_mae_h",
+      "actual": 5.384220210339292,
+      "expected": 5.384220210339292,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:eta_mae_h",
+      "actual": 5.661506686121333,
+      "expected": 5.661506686121333,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:eta_rmse_h",
+      "actual": 9.162232040531372,
+      "expected": 9.162232040531372,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:eta_bias_h",
+      "actual": 0.5178511197782362,
+      "expected": 0.5178511197782362,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:delay_mae_h",
+      "actual": 3.9579072940903686,
+      "expected": 3.9579072940903686,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:eta_mae_h",
+      "actual": 5.408006427804771,
+      "expected": 5.408006427804771,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:eta_rmse_h",
+      "actual": 8.249233116118742,
+      "expected": 8.249233116118742,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:eta_bias_h",
+      "actual": 0.19144593723783565,
+      "expected": 0.19144593723783565,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:delay_mae_h",
+      "actual": 4.248323680210604,
+      "expected": 4.248323680210604,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_0.1:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:eta_mae_h",
+      "actual": 4.2559745507346465,
+      "expected": 4.2559745507346465,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:eta_rmse_h",
+      "actual": 6.2366266656304425,
+      "expected": 6.2366266656304425,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:eta_bias_h",
+      "actual": 0.5642165130108129,
+      "expected": 0.5642165130108129,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:delay_mae_h",
+      "actual": 3.4007202270816252,
+      "expected": 3.4007202270816252,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:eta_mae_h",
+      "actual": 6.303937288043527,
+      "expected": 6.303937288043527,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:eta_rmse_h",
+      "actual": 9.023122971710194,
+      "expected": 9.023122971710194,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:eta_bias_h",
+      "actual": -0.5291416546513057,
+      "expected": -0.5291416546513057,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:delay_mae_h",
+      "actual": 5.38150581917391,
+      "expected": 5.38150581917391,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:eta_mae_h",
+      "actual": 5.632666151052,
+      "expected": 5.632666151052,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:eta_rmse_h",
+      "actual": 9.1337118308343,
+      "expected": 9.1337118308343,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:eta_bias_h",
+      "actual": 0.5191931590790968,
+      "expected": 0.5191931590790968,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:delay_mae_h",
+      "actual": 3.935801186945993,
+      "expected": 3.935801186945993,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:eta_mae_h",
+      "actual": 5.397525996610058,
+      "expected": 5.397525996610058,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:eta_rmse_h",
+      "actual": 8.240892996469485,
+      "expected": 8.240892996469485,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:eta_bias_h",
+      "actual": 0.18475600581286808,
+      "expected": 0.18475600581286808,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:delay_mae_h",
+      "actual": 4.239342411067176,
+      "expected": 4.239342411067176,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_1:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:eta_mae_h",
+      "actual": 4.259613942344028,
+      "expected": 4.259613942344028,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:eta_rmse_h",
+      "actual": 6.284339214606676,
+      "expected": 6.284339214606676,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:eta_bias_h",
+      "actual": 0.5032235881701113,
+      "expected": 0.5032235881701113,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:delay_mae_h",
+      "actual": 3.3823664689084865,
+      "expected": 3.3823664689084865,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:eta_mae_h",
+      "actual": 6.222557474710319,
+      "expected": 6.222557474710319,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:eta_rmse_h",
+      "actual": 9.017466654035571,
+      "expected": 9.017466654035571,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:eta_bias_h",
+      "actual": -0.632616261364111,
+      "expected": -0.632616261364111,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:delay_mae_h",
+      "actual": 5.304578416230639,
+      "expected": 5.304578416230639,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:eta_mae_h",
+      "actual": 5.500728068835347,
+      "expected": 5.500728068835347,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:eta_rmse_h",
+      "actual": 8.980010208513082,
+      "expected": 8.980010208513082,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:eta_bias_h",
+      "actual": 0.5200104651258055,
+      "expected": 0.5200104651258055,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:delay_mae_h",
+      "actual": 3.827822878854826,
+      "expected": 3.827822878854826,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:eta_mae_h",
+      "actual": 5.327633161963231,
+      "expected": 5.327633161963231,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:eta_rmse_h",
+      "actual": 8.19447390147543,
+      "expected": 8.19447390147543,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:eta_bias_h",
+      "actual": 0.13020593064393537,
+      "expected": 0.13020593064393537,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:delay_mae_h",
+      "actual": 4.17158925466465,
+      "expected": 4.17158925466465,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_10:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:eta_mae_h",
+      "actual": 5.085403578106805,
+      "expected": 5.085403578106805,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:eta_rmse_h",
+      "actual": 7.081782000345111,
+      "expected": 7.081782000345111,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:eta_bias_h",
+      "actual": 0.2019822264077776,
+      "expected": 0.2019822264077776,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:delay_mae_h",
+      "actual": 3.9394007908255757,
+      "expected": 3.9394007908255757,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_1:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:eta_mae_h",
+      "actual": 5.91705763144318,
+      "expected": 5.91705763144318,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:eta_rmse_h",
+      "actual": 9.283377894061516,
+      "expected": 9.283377894061516,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:eta_bias_h",
+      "actual": -1.1133204867828748,
+      "expected": -1.1133204867828748,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:delay_mae_h",
+      "actual": 4.930979366253647,
+      "expected": 4.930979366253647,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_2:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:n",
+      "actual": 40.0,
+      "expected": 40.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:eta_mae_h",
+      "actual": 5.738788945434931,
+      "expected": 5.738788945434931,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:eta_rmse_h",
+      "actual": 8.667470489095265,
+      "expected": 8.667470489095265,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:eta_bias_h",
+      "actual": 0.6130043015434168,
+      "expected": 0.6130043015434168,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:delay_mae_h",
+      "actual": 4.029224913114736,
+      "expected": 4.029224913114736,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:fold_3:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:n",
+      "actual": 120.0,
+      "expected": 120.0,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:eta_mae_h",
+      "actual": 5.580416718328306,
+      "expected": 5.580416718328306,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:eta_rmse_h",
+      "actual": 8.395589836410133,
+      "expected": 8.395589836410133,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:eta_bias_h",
+      "actual": -0.09944465294389365,
+      "expected": -0.09944465294389365,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:delay_mae_h",
+      "actual": 4.299868356731319,
+      "expected": 4.299868356731319,
+      "passed": true
+    },
+    {
+      "claim": "stage6:ridge_propagation_alpha_100:pooled_validation:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:n",
+      "actual": 60.0,
+      "expected": 60.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:eta_mae_h",
+      "actual": 7.123036849946574,
+      "expected": 7.123036849946574,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:eta_rmse_h",
+      "actual": 10.403545727798416,
+      "expected": 10.403545727798416,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:eta_bias_h",
+      "actual": -1.3794393875732596,
+      "expected": -1.3794393875732596,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:delay_mae_h",
+      "actual": 5.7765768559960105,
+      "expected": 5.7765768559960105,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:eta_p95_abs_error_h",
+      "actual": 28.754722476928624,
+      "expected": 28.754722476928624,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:ridge_propagation_alpha_10:final_holdout:eta_max_abs_error_h",
+      "actual": 31.663877591281945,
+      "expected": 31.663877591281945,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:n",
+      "actual": 60.0,
+      "expected": 60.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:eta_mae_h",
+      "actual": 10.678758575090676,
+      "expected": 10.678758575090676,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:eta_rmse_h",
+      "actual": 16.367430592641,
+      "expected": 16.367430592641,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:eta_bias_h",
+      "actual": -6.884851378678842,
+      "expected": -6.884851378678842,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:delay_mae_h",
+      "actual": 8.78180497688462,
+      "expected": 8.78180497688462,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:clipped_count",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:eta_p95_abs_error_h",
+      "actual": 27.725443480203484,
+      "expected": 27.725443480203484,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:scheduled:final_holdout:eta_max_abs_error_h",
+      "actual": 62.247973213444716,
+      "expected": 62.247973213444716,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:n",
+      "actual": 60.0,
+      "expected": 60.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:eta_mae_h",
+      "actual": 7.063309118367559,
+      "expected": 7.063309118367559,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:eta_rmse_h",
+      "actual": 10.102235778899875,
+      "expected": 10.102235778899875,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:eta_bias_h",
+      "actual": -0.12869353757231022,
+      "expected": -0.12869353757231022,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:delay_mae_h",
+      "actual": 5.685048036819286,
+      "expected": 5.685048036819286,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:clipped_count",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:eta_p95_abs_error_h",
+      "actual": 21.941457992547363,
+      "expected": 21.941457992547363,
+      "passed": true
+    },
+    {
+      "claim": "stage9_final:carry_forward:final_holdout:eta_max_abs_error_h",
+      "actual": 30.77577249556333,
+      "expected": 30.77577249556333,
+      "passed": true
+    },
+    {
+      "claim": "paired_better",
+      "actual": 29,
+      "expected": 29,
+      "passed": true
+    },
+    {
+      "claim": "paired_worse",
+      "actual": 31,
+      "expected": 31,
+      "passed": true
+    },
+    {
+      "claim": "paired_improvement",
+      "actual": -0.05972773157901387,
+      "expected": -0.05972773157901387,
+      "passed": true
+    },
+    {
+      "claim": "bootstrap:selected_eta_mae_h:lower_h",
+      "actual": 5.329043236055726,
+      "expected": 5.329043236055726,
+      "passed": true
+    },
+    {
+      "claim": "bootstrap:selected_eta_mae_h:upper_h",
+      "actual": 9.1431191129073,
+      "expected": 9.1431191129073,
+      "passed": true
+    },
+    {
+      "claim": "bootstrap:paired_eta_mae_improvement_h:lower_h",
+      "actual": -1.1307185064418235,
+      "expected": -1.1307185064418235,
+      "passed": true
+    },
+    {
+      "claim": "bootstrap:paired_eta_mae_improvement_h:upper_h",
+      "actual": 1.0136042130263487,
+      "expected": 1.0136042130263487,
+      "passed": true
+    },
+    {
+      "claim": "explanation_max_reconstruction_h",
+      "actual": 7.105427357601002e-15,
+      "expected": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "claim": "explanation_first_id",
+      "actual": "SHP-000241",
+      "expected": "SHP-000241",
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R01:n",
+      "actual": 15,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R01:mae",
+      "actual": 5.921419328249223,
+      "expected": 5.921419328249223,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R02:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R02:mae",
+      "actual": 8.929964292513814,
+      "expected": 8.929964292513814,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R03:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R03:mae",
+      "actual": 7.23346304916621,
+      "expected": 7.23346304916621,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R04:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R04:mae",
+      "actual": 7.881228375728118,
+      "expected": 7.881228375728118,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R05:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:route_id:R05:mae",
+      "actual": 5.868010171889394,
+      "expected": 5.868010171889394,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R01:n",
+      "actual": 15,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R01:mae",
+      "actual": 5.157942074218556,
+      "expected": 5.157942074218556,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R02:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R02:mae",
+      "actual": 8.913794596883484,
+      "expected": 8.913794596883484,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R03:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R03:mae",
+      "actual": 7.556413997052361,
+      "expected": 7.556413997052361,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R04:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R04:mae",
+      "actual": 7.266065460606419,
+      "expected": 7.266065460606419,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R05:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:route_id:R05:mae",
+      "actual": 7.343359473964267,
+      "expected": 7.343359473964267,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R01:n",
+      "actual": 15,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R01:mae",
+      "actual": 9.841084775622518,
+      "expected": 9.841084775622518,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R02:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R02:mae",
+      "actual": 17.31029219368482,
+      "expected": 17.31029219368482,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R03:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R03:mae",
+      "actual": 7.130561557163353,
+      "expected": 7.130561557163353,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R04:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R04:mae",
+      "actual": 12.25860591779568,
+      "expected": 12.25860591779568,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R05:n",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:route_id:R05:mae",
+      "actual": 8.412792152738334,
+      "expected": 8.412792152738334,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:low:n",
+      "actual": 34,
+      "expected": 34,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:low:mae",
+      "actual": 8.17655244888531,
+      "expected": 8.17655244888531,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:medium:n",
+      "actual": 21,
+      "expected": 21,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:medium:mae",
+      "actual": 6.041555004954854,
+      "expected": 6.041555004954854,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:high:n",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:congestion_slice:high:mae",
+      "actual": 3.7846217471802226,
+      "expected": 3.7846217471802226,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:low:n",
+      "actual": 34,
+      "expected": 34,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:low:mae",
+      "actual": 7.4722747005955075,
+      "expected": 7.4722747005955075,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:medium:n",
+      "actual": 21,
+      "expected": 21,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:medium:mae",
+      "actual": 6.939655023169867,
+      "expected": 6.939655023169867,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:high:n",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:congestion_slice:high:mae",
+      "actual": 5.518423137996,
+      "expected": 5.518423137996,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:low:n",
+      "actual": 34,
+      "expected": 34,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:low:mae",
+      "actual": 10.031342231277478,
+      "expected": 10.031342231277478,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:medium:n",
+      "actual": 21,
+      "expected": 21,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:medium:mae",
+      "actual": 11.652861779429271,
+      "expected": 11.652861779429271,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:high:n",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:congestion_slice:high:mae",
+      "actual": 10.989956254798333,
+      "expected": 10.989956254798333,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:early_or_on_time:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:early_or_on_time:mae",
+      "actual": 5.830698601470648,
+      "expected": 5.830698601470648,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:late_0_to_12h:n",
+      "actual": 37,
+      "expected": 37,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:late_0_to_12h:mae",
+      "actual": 6.07736249778292,
+      "expected": 6.07736249778292,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:late_over_12h:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:arrival_slice:late_over_12h:mae",
+      "actual": 10.461417662203553,
+      "expected": 10.461417662203553,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:early_or_on_time:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:early_or_on_time:mae",
+      "actual": 4.119280787601482,
+      "expected": 4.119280787601482,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:late_0_to_12h:n",
+      "actual": 37,
+      "expected": 37,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:late_0_to_12h:mae",
+      "actual": 6.853273377799482,
+      "expected": 6.853273377799482,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:late_over_12h:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:arrival_slice:late_over_12h:mae",
+      "actual": 9.766969209271451,
+      "expected": 9.766969209271451,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:early_or_on_time:n",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:early_or_on_time:mae",
+      "actual": 9.28864871252176,
+      "expected": 9.28864871252176,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:late_0_to_12h:n",
+      "actual": 37,
+      "expected": 37,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:late_0_to_12h:mae",
+      "actual": 6.9671932728838355,
+      "expected": 6.9671932728838355,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:late_over_12h:n",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:arrival_slice:late_over_12h:mae",
+      "actual": 21.381537499717343,
+      "expected": 21.381537499717343,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:none:n",
+      "actual": 47,
+      "expected": 47,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:none:mae",
+      "actual": 5.165444301419864,
+      "expected": 5.165444301419864,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:port_only:n",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:port_only:mae",
+      "actual": 18.027621143746227,
+      "expected": 18.027621143746227,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:inland_only:n",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:inland_only:mae",
+      "actual": 1.6159881488047223,
+      "expected": 1.6159881488047223,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:both:n",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "slice:carry_forward:future_disruption_slice:both:mae",
+      "actual": 24.18268216693875,
+      "expected": 24.18268216693875,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:none:n",
+      "actual": 47,
+      "expected": 47,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:none:mae",
+      "actual": 4.14501635734149,
+      "expected": 4.14501635734149,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:port_only:n",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:port_only:mae",
+      "actual": 20.52070651188587,
+      "expected": 20.52070651188587,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:inland_only:n",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:inland_only:mae",
+      "actual": 7.126840391952153,
+      "expected": 7.126840391952153,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:both:n",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "slice:ridge_propagation_alpha_10:future_disruption_slice:both:mae",
+      "actual": 30.20706752536736,
+      "expected": 30.20706752536736,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:none:n",
+      "actual": 47,
+      "expected": 47,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:none:mae",
+      "actual": 7.13503769113334,
+      "expected": 7.13503769113334,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:port_only:n",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:port_only:mae",
+      "actual": 30.523094592028013,
+      "expected": 30.523094592028013,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:inland_only:n",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:inland_only:mae",
+      "actual": 6.7729242189714585,
+      "expected": 6.7729242189714585,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:both:n",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "slice:scheduled:future_disruption_slice:both:mae",
+      "actual": 32.31269200104583,
+      "expected": 32.31269200104583,
+      "passed": true
+    },
+    {
+      "claim": "old_summary_exact",
+      "actual": {
+        "bootstrap_intervals": {
+          "confidence_level": 0.95,
+          "interpretation": "Approximate intervals conditional on the fitted model and observed sample; assumes independently resampleable shipments. Not individual ETA intervals; training/selection variability is excluded.",
+          "method": "paired_shipments_percentile",
+          "n": 60,
+          "paired_eta_mae_improvement_h": {
+            "estimate_h": -0.05972773157901387,
+            "lower_h": -1.1307185064418235,
+            "upper_h": 1.0136042130263487
+          },
+          "resamples": 5000,
+          "seed": 2026,
+          "selected_eta_mae_h": {
+            "estimate_h": 7.123036849946574,
+            "lower_h": 5.329043236055726,
+            "upper_h": 9.1431191129073
+          }
+        },
+        "evaluation_scope": "final_holdout",
+        "excluded_unavailable_labels": 3,
+        "holdout_scored": true,
+        "holdout_shipments": 60,
+        "interpretation": "Final evaluation of the frozen predictor on the reserved synthetic holdout; no post-holdout tuning.",
+        "max_explanation_reconstruction_error_h": 7.105427357601002e-15,
+        "metrics": [
+          {
+            "clipped_count": 0,
+            "delay_mae_h": 5.7765768559960105,
+            "eta_bias_h": -1.3794393875732596,
+            "eta_mae_h": 7.123036849946574,
+            "eta_max_abs_error_h": 31.663877591281945,
+            "eta_p95_abs_error_h": 28.754722476928624,
+            "eta_rmse_h": 10.403545727798416,
+            "n": 60,
+            "predictor": "ridge_propagation_alpha_10",
+            "scope": "final_holdout"
+          },
+          {
+            "clipped_count": 1,
+            "delay_mae_h": 8.78180497688462,
+            "eta_bias_h": -6.884851378678842,
+            "eta_mae_h": 10.678758575090676,
+            "eta_max_abs_error_h": 62.247973213444716,
+            "eta_p95_abs_error_h": 27.725443480203484,
+            "eta_rmse_h": 16.367430592641,
+            "n": 60,
+            "predictor": "scheduled",
+            "scope": "final_holdout"
+          },
+          {
+            "clipped_count": 0,
+            "delay_mae_h": 5.685048036819286,
+            "eta_bias_h": -0.12869353757231022,
+            "eta_mae_h": 7.063309118367559,
+            "eta_max_abs_error_h": 30.77577249556333,
+            "eta_p95_abs_error_h": 21.941457992547363,
+            "eta_rmse_h": 10.102235778899875,
+            "n": 60,
+            "predictor": "carry_forward",
+            "scope": "final_holdout"
+          }
+        ],
+        "model_refitted": false,
+        "paired_vs_validation_baseline": {
+          "baseline": "carry_forward",
+          "better": 29,
+          "mean_absolute_error_improvement_h": -0.05972773157901387,
+          "median_absolute_error_improvement_h": -0.14012993095430615,
+          "n": 60,
+          "predictor": "ridge_propagation_alpha_10",
+          "tied": 0,
+          "worse": 31
+        },
+        "predictor": "ridge_propagation_alpha_10",
+        "predictor_changed": false,
+        "schema_version": 1,
+        "shipments_with_feature_range_flags": 5,
+        "training_shipments": 237
+      },
+      "expected": {
+        "bootstrap_intervals": {
+          "confidence_level": 0.95,
+          "interpretation": "Approximate intervals conditional on the fitted model and observed sample; assumes independently resampleable shipments. Not individual ETA intervals; training/selection variability is excluded.",
+          "method": "paired_shipments_percentile",
+          "n": 60,
+          "paired_eta_mae_improvement_h": {
+            "estimate_h": -0.05972773157901387,
+            "lower_h": -1.1307185064418235,
+            "upper_h": 1.0136042130263487
+          },
+          "resamples": 5000,
+          "seed": 2026,
+          "selected_eta_mae_h": {
+            "estimate_h": 7.123036849946574,
+            "lower_h": 5.329043236055726,
+            "upper_h": 9.1431191129073
+          }
+        },
+        "evaluation_scope": "final_holdout",
+        "excluded_unavailable_labels": 3,
+        "holdout_scored": true,
+        "holdout_shipments": 60,
+        "interpretation": "Final evaluation of the frozen predictor on the reserved synthetic holdout; no post-holdout tuning.",
+        "max_explanation_reconstruction_error_h": 7.105427357601002e-15,
+        "metrics": [
+          {
+            "clipped_count": 0,
+            "delay_mae_h": 5.7765768559960105,
+            "eta_bias_h": -1.3794393875732596,
+            "eta_mae_h": 7.123036849946574,
+            "eta_max_abs_error_h": 31.663877591281945,
+            "eta_p95_abs_error_h": 28.754722476928624,
+            "eta_rmse_h": 10.403545727798416,
+            "n": 60,
+            "predictor": "ridge_propagation_alpha_10",
+            "scope": "final_holdout"
+          },
+          {
+            "clipped_count": 1,
+            "delay_mae_h": 8.78180497688462,
+            "eta_bias_h": -6.884851378678842,
+            "eta_mae_h": 10.678758575090676,
+            "eta_max_abs_error_h": 62.247973213444716,
+            "eta_p95_abs_error_h": 27.725443480203484,
+            "eta_rmse_h": 16.367430592641,
+            "n": 60,
+            "predictor": "scheduled",
+            "scope": "final_holdout"
+          },
+          {
+            "clipped_count": 0,
+            "delay_mae_h": 5.685048036819286,
+            "eta_bias_h": -0.12869353757231022,
+            "eta_mae_h": 7.063309118367559,
+            "eta_max_abs_error_h": 30.77577249556333,
+            "eta_p95_abs_error_h": 21.941457992547363,
+            "eta_rmse_h": 10.102235778899875,
+            "n": 60,
+            "predictor": "carry_forward",
+            "scope": "final_holdout"
+          }
+        ],
+        "model_refitted": false,
+        "paired_vs_validation_baseline": {
+          "baseline": "carry_forward",
+          "better": 29,
+          "mean_absolute_error_improvement_h": -0.05972773157901387,
+          "median_absolute_error_improvement_h": -0.14012993095430615,
+          "n": 60,
+          "predictor": "ridge_propagation_alpha_10",
+          "tied": 0,
+          "worse": 31
+        },
+        "predictor": "ridge_propagation_alpha_10",
+        "predictor_changed": false,
+        "schema_version": 1,
+        "shipments_with_feature_range_flags": 5,
+        "training_shipments": 237
+      },
+      "passed": true
+    }
+  ]
+}

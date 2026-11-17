@@ -1,0 +1,98 @@
+{
+  "departure": {
+    "disruption_max_h": 36.0,
+    "disruption_min_h": 12.0,
+    "disruption_probability": 0.1,
+    "early_bound_h": -2.0,
+    "normal_mean_h": 2.0,
+    "normal_std_h": 4.0
+  },
+  "departure_spacing_h": 12.0,
+  "inland": {
+    "disruption_max_h": 12.0,
+    "disruption_min_h": 4.0,
+    "disruption_probability": 0.08,
+    "minimum_duration_h": 1.0,
+    "noise_std_fraction": 0.15
+  },
+  "n_shipments": 300,
+  "port": {
+    "base_multiplier": 0.75,
+    "congestion_beta_a": 2.0,
+    "congestion_beta_b": 3.0,
+    "congestion_multiplier": 1.1,
+    "disruption_max_h": 36.0,
+    "disruption_min_h": 12.0,
+    "disruption_probability": 0.1,
+    "minimum_duration_h": 1.0,
+    "noise_std_h": 2.0
+  },
+  "route_assignment": "balanced_then_shuffled",
+  "routes": [
+    {
+      "delivery_buffer_h": 8.0,
+      "destination": "Delivery_X1",
+      "destination_port": "Port_X",
+      "dispatch_interval_h": 6.0,
+      "inland_h": 8.0,
+      "origin": "Origin_A",
+      "port_processing_h": 12.0,
+      "route_id": "R01",
+      "voyage_h": 72.0
+    },
+    {
+      "delivery_buffer_h": 10.0,
+      "destination": "Delivery_X2",
+      "destination_port": "Port_X",
+      "dispatch_interval_h": 6.0,
+      "inland_h": 14.0,
+      "origin": "Origin_B",
+      "port_processing_h": 12.0,
+      "route_id": "R02",
+      "voyage_h": 120.0
+    },
+    {
+      "delivery_buffer_h": 10.0,
+      "destination": "Delivery_Y1",
+      "destination_port": "Port_Y",
+      "dispatch_interval_h": 12.0,
+      "inland_h": 10.0,
+      "origin": "Origin_A",
+      "port_processing_h": 18.0,
+      "route_id": "R03",
+      "voyage_h": 168.0
+    },
+    {
+      "delivery_buffer_h": 12.0,
+      "destination": "Delivery_Y2",
+      "destination_port": "Port_Y",
+      "dispatch_interval_h": 12.0,
+      "inland_h": 20.0,
+      "origin": "Origin_C",
+      "port_processing_h": 18.0,
+      "route_id": "R04",
+      "voyage_h": 96.0
+    },
+    {
+      "delivery_buffer_h": 12.0,
+      "destination": "Delivery_Z1",
+      "destination_port": "Port_Z",
+      "dispatch_interval_h": 6.0,
+      "inland_h": 16.0,
+      "origin": "Origin_B",
+      "port_processing_h": 24.0,
+      "route_id": "R05",
+      "voyage_h": 144.0
+    }
+  ],
+  "scheduled_start_utc": "2025-01-01T00:00:00Z",
+  "schema_version": 1,
+  "seed": 42,
+  "voyage": {
+    "minimum_duration_fraction": 0.75,
+    "noise_std_fraction": 0.04,
+    "weather_beta_a": 2.0,
+    "weather_beta_b": 5.0,
+    "weather_effect_h": 8.0
+  }
+}

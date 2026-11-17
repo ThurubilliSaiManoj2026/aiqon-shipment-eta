@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "scope": "Local Linux audit of delivered source; same-protocol replay, not independent holdout evaluation",
+  "python": "3.12.14",
+  "tests_passed": 186,
+  "tests_time_s": 81.64,
+  "warnings_as_errors": true,
+  "cli_stages_passed": 7,
+  "explicit_csv_prediction_passed": true,
+  "verified_package_pins": 23,
+  "independent_recorded_checks": 432,
+  "dataset_csv_hashes_match": true,
+  "final_summary_exact_match": true,
+  "frozen_files_unchanged": 29,
+  "windows_freeze_check": "User screenshot reports UNCHANGED",
+  "github_publication_verified": false
+}

@@ -1,0 +1,30 @@
+{
+  "best_fixed_baseline": {
+    "name": "carry_forward",
+    "validation_eta_mae_h": 7.145461748435929
+  },
+  "candidate_count": 8,
+  "final_training_shipments": 237,
+  "fold_count": 3,
+  "group_best_validation_mae_h": {
+    "base": 5.39287395588153,
+    "propagation": 5.327633161963231
+  },
+  "holdout_scored": false,
+  "improvement_over_baseline_h": 1.8178285864726984,
+  "interpretation": "Selected validation scores on synthetic data, not final holdout estimates.",
+  "learned_model_fitted": true,
+  "reserved_holdout_shipments": 60,
+  "selected_ridge": {
+    "absolute_minimum_eta_mae_h": 5.327633161963231,
+    "alpha": 10.0,
+    "candidate": "ridge_propagation_alpha_10",
+    "feature_set": "propagation",
+    "gap_to_absolute_minimum_h": 0.0,
+    "selection_mae_tolerance_h": 0.05,
+    "validation_eta_mae_h": 5.327633161963231
+  },
+  "serialization_max_abs_difference_h": 0.0,
+  "validation_recommended_predictor": "ridge_propagation_alpha_10",
+  "validation_shipments_per_candidate": 120
+}

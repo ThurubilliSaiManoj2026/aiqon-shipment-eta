@@ -1,0 +1,69 @@
+{
+  "arrival_counts": {
+    "early": 89,
+    "exactly_on_time": 0,
+    "late": 211
+  },
+  "delay_magnitude_h": {
+    "max": 62.24797321344472,
+    "mean": 9.156340787890464,
+    "median": 3.727345336777639,
+    "min": 0.0,
+    "p95": 34.02814408753159
+  },
+  "dispatch_wait_h": {
+    "max": 11.96567967098,
+    "mean": 4.063675172311902,
+    "median": 3.4721771253216667,
+    "min": 0.031194615469444444,
+    "p95": 10.323521050417947
+  },
+  "disruptions": {
+    "departure_disruption": 34,
+    "inland_disruption": 25,
+    "port_disruption": 30
+  },
+  "interpretation": "Structural audit of synthetic assumptions; no predictive performance has been measured.",
+  "late_port_and_amplified_final_lateness": 110,
+  "late_port_but_not_late_delivery": 53,
+  "missing_values": 0,
+  "n_shipments": 300,
+  "port_arrival_deviation_h": {
+    "max": 54.71907710893361,
+    "mean": 7.579088257820953,
+    "median": 6.316073900971805,
+    "min": -12.963190706293611,
+    "p95": 26.84657411695535
+  },
+  "remaining_h": {
+    "max": 88.93918868335945,
+    "mean": 40.68961569560184,
+    "median": 39.696721644985274,
+    "min": 19.08089843750528,
+    "p95": 63.76175394661606
+  },
+  "route_counts": {
+    "R01": 60,
+    "R02": 60,
+    "R03": 60,
+    "R04": 60,
+    "R05": 60
+  },
+  "schema_version": 1,
+  "signed_arrival_deviation_h": {
+    "max": 62.24797321344472,
+    "mean": 7.468703953422792,
+    "median": 3.727345336777639,
+    "min": -19.14938107615222,
+    "p95": 34.02814408753159
+  },
+  "split_feasibility": {
+    "eligible_training_shipments": 237,
+    "first_holdout_checkpoint_utc": "2025-05-07T04:48:43.449814928+00:00",
+    "holdout_shipments": 60,
+    "prior_shipments": 240,
+    "prior_shipments_with_unavailable_labels": 3
+  },
+  "synthetic": true,
+  "unique_shipment_ids": 300
+}

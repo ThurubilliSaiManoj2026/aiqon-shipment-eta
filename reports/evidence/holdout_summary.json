@@ -1,0 +1,80 @@
+{
+  "bootstrap_intervals": {
+    "confidence_level": 0.95,
+    "interpretation": "Approximate intervals conditional on the fitted model and observed sample; assumes independently resampleable shipments. Not individual ETA intervals; training/selection variability is excluded.",
+    "method": "paired_shipments_percentile",
+    "n": 60,
+    "paired_eta_mae_improvement_h": {
+      "estimate_h": -0.05972773157901387,
+      "lower_h": -1.1307185064418235,
+      "upper_h": 1.0136042130263487
+    },
+    "resamples": 5000,
+    "seed": 2026,
+    "selected_eta_mae_h": {
+      "estimate_h": 7.123036849946574,
+      "lower_h": 5.329043236055726,
+      "upper_h": 9.1431191129073
+    }
+  },
+  "evaluation_scope": "final_holdout",
+  "excluded_unavailable_labels": 3,
+  "holdout_scored": true,
+  "holdout_shipments": 60,
+  "interpretation": "Final evaluation of the frozen predictor on the reserved synthetic holdout; no post-holdout tuning.",
+  "max_explanation_reconstruction_error_h": 7.105427357601002e-15,
+  "metrics": [
+    {
+      "clipped_count": 0,
+      "delay_mae_h": 5.7765768559960105,
+      "eta_bias_h": -1.3794393875732596,
+      "eta_mae_h": 7.123036849946574,
+      "eta_max_abs_error_h": 31.663877591281945,
+      "eta_p95_abs_error_h": 28.754722476928624,
+      "eta_rmse_h": 10.403545727798416,
+      "n": 60,
+      "predictor": "ridge_propagation_alpha_10",
+      "scope": "final_holdout"
+    },
+    {
+      "clipped_count": 1,
+      "delay_mae_h": 8.78180497688462,
+      "eta_bias_h": -6.884851378678842,
+      "eta_mae_h": 10.678758575090676,
+      "eta_max_abs_error_h": 62.247973213444716,
+      "eta_p95_abs_error_h": 27.725443480203484,
+      "eta_rmse_h": 16.367430592641,
+      "n": 60,
+      "predictor": "scheduled",
+      "scope": "final_holdout"
+    },
+    {
+      "clipped_count": 0,
+      "delay_mae_h": 5.685048036819286,
+      "eta_bias_h": -0.12869353757231022,
+      "eta_mae_h": 7.063309118367559,
+      "eta_max_abs_error_h": 30.77577249556333,
+      "eta_p95_abs_error_h": 21.941457992547363,
+      "eta_rmse_h": 10.102235778899875,
+      "n": 60,
+      "predictor": "carry_forward",
+      "scope": "final_holdout"
+    }
+  ],
+  "model_refitted": false,
+  "paired_vs_validation_baseline": {
+    "baseline": "carry_forward",
+    "better": 29,
+    "mean_absolute_error_improvement_h": -0.05972773157901387,
+    "median_absolute_error_improvement_h": -0.14012993095430615,
+    "n": 60,
+    "predictor": "ridge_propagation_alpha_10",
+    "tied": 0,
+    "worse": 31
+  },
+  "predictor": "ridge_propagation_alpha_10",
+  "predictor_changed": false,
+  "schema_version": 1,
+  "shipments_with_feature_range_flags": 5,
+  "training_shipments": 237
+}

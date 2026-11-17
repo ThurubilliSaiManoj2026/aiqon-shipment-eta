@@ -1,0 +1,6 @@
+# Fixed before inspecting baseline validation scores or fitting any model.
+schema_version = 1
+holdout_size = 60
+n_validation_folds = 3
+validation_size = 40
+minimum_training_size = 80

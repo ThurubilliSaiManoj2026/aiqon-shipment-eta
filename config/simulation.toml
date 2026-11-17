@@ -1,0 +1,96 @@
+# Proposed simulation assumptions, not empirical measurements.
+# Sample with a dedicated NumPy Generator(PCG64(seed)); persist resolved versions.
+schema_version = 1
+seed = 42
+n_shipments = 300
+scheduled_start_utc = "2025-01-01T00:00:00Z"
+departure_spacing_h = 12.0
+route_assignment = "balanced_then_shuffled"
+
+[departure]
+normal_mean_h = 2.0
+normal_std_h = 4.0
+early_bound_h = -2.0
+disruption_probability = 0.10
+disruption_min_h = 12.0
+disruption_max_h = 36.0
+
+[voyage]
+weather_beta_a = 2.0
+weather_beta_b = 5.0
+weather_effect_h = 8.0
+noise_std_fraction = 0.04
+minimum_duration_fraction = 0.75
+
+[port]
+congestion_beta_a = 2.0
+congestion_beta_b = 3.0
+base_multiplier = 0.75
+congestion_multiplier = 1.10
+noise_std_h = 2.0
+minimum_duration_h = 1.0
+disruption_probability = 0.10
+disruption_min_h = 12.0
+disruption_max_h = 36.0
+
+[inland]
+noise_std_fraction = 0.15
+minimum_duration_h = 1.0
+disruption_probability = 0.08
+disruption_min_h = 4.0
+disruption_max_h = 12.0
+
+[[routes]]
+route_id = "R01"
+origin = "Origin_A"
+destination_port = "Port_X"
+destination = "Delivery_X1"
+voyage_h = 72.0
+port_processing_h = 12.0
+inland_h = 8.0
+delivery_buffer_h = 8.0
+dispatch_interval_h = 6.0
+
+[[routes]]
+route_id = "R02"
+origin = "Origin_B"
+destination_port = "Port_X"
+destination = "Delivery_X2"
+voyage_h = 120.0
+port_processing_h = 12.0
+inland_h = 14.0
+delivery_buffer_h = 10.0
+dispatch_interval_h = 6.0
+
+[[routes]]
+route_id = "R03"
+origin = "Origin_A"
+destination_port = "Port_Y"
+destination = "Delivery_Y1"
+voyage_h = 168.0
+port_processing_h = 18.0
+inland_h = 10.0
+delivery_buffer_h = 10.0
+dispatch_interval_h = 12.0
+
+[[routes]]
+route_id = "R04"
+origin = "Origin_C"
+destination_port = "Port_Y"
+destination = "Delivery_Y2"
+voyage_h = 96.0
+port_processing_h = 18.0
+inland_h = 20.0
+delivery_buffer_h = 12.0
+dispatch_interval_h = 12.0
+
+[[routes]]
+route_id = "R05"
+origin = "Origin_B"
+destination_port = "Port_Z"
+destination = "Delivery_Z1"
+voyage_h = 144.0
+port_processing_h = 24.0
+inland_h = 16.0
+delivery_buffer_h = 12.0
+dispatch_interval_h = 6.0

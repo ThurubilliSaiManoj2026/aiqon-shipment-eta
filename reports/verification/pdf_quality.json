@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "tables": 1,
+      "visible_fonts": [
+        "AAAAAA+LiberationSans",
+        "AAAAAA+LiberationSans-Bold"
+      ],
+      "text_bounds": [
+        48.0,
+        23.288818200000037,
+        547.2756122000001,
+        818.6786182000001
+      ],
+      "monochrome_vector": true,
+      "monochrome_raster": true,
+      "glyph_coverage": true
+    },
+    {
+      "page": 2,
+      "tables": 2,
+      "visible_fonts": [
+        "AAAAAA+LiberationSans",
+        "AAAAAA+LiberationSans-Bold"
+      ],
+      "text_bounds": [
+        48.0,
+        23.288818200000037,
+        547.2756122000001,
+        818.6786182000001
+      ],
+      "monochrome_vector": true,
+      "monochrome_raster": true,
+      "glyph_coverage": true
+    },
+    {
+      "page": 3,
+      "tables": 1,
+      "visible_fonts": [
+        "AAAAAA+LiberationSans",
+        "AAAAAA+LiberationSans-Bold"
+      ],
+      "text_bounds": [
+        48.0,
+        23.288818200000037,
+        547.2756122000001,
+        818.6786182000001
+      ],
+      "monochrome_vector": true,
+      "monochrome_raster": true,
+      "glyph_coverage": true
+    }
+  ],
+  "page_count": 3,
+  "format": "A4",
+  "margin_left_right_pt": 48,
+  "deterministic_rebuild": true,
+  "pdf_sha256": "f377bf4f0b8e7425001a0088b687d7139678f500280f8a4ccc7c2dcae7c30153",
+  "reference_links": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html",
+    "https://scikit-learn.org/stable/common_pitfalls.html",
+    "https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html"
+  ],
+  "visual_review": "All three final page renders inspected; no clipping, overlap or missing glyphs observed."
+}

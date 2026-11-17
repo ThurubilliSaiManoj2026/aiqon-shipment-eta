@@ -1,0 +1,132 @@
+{
+  "as_of_utc": "2025-05-07T04:48:43.449814928+00:00",
+  "deadline_offset_h": -47.18793060696444,
+  "delay_floor_adjustment_h": 0.0,
+  "feature_terms": [
+    {
+      "coefficient_standardized_h": 4.0468118599250635,
+      "contribution_h": 6.3929064095034205,
+      "description": "Scheduled cargo-readiness processing duration, hours.",
+      "group": "port_processing",
+      "reference_value": 16.860759493670887,
+      "scale": 4.51925326310451,
+      "term": "planned_port_processing_h",
+      "value": 24.0
+    },
+    {
+      "coefficient_standardized_h": 4.222155092174864,
+      "contribution_h": 2.2287193922748787,
+      "description": "Scheduled inland transit duration, hours.",
+      "group": "inland_plan",
+      "reference_value": 13.755274261603375,
+      "scale": 4.252478010357966,
+      "term": "planned_inland_h",
+      "value": 16.0
+    },
+    {
+      "coefficient_standardized_h": 1.4342276177973907,
+      "contribution_h": 0.32153773808612435,
+      "description": "Congestion observed at port arrival, dimensionless [0,1].",
+      "group": "port_processing",
+      "reference_value": 0.41347838849061913,
+      "scale": 0.20517407517757633,
+      "term": "port_congestion_index",
+      "value": 0.4594761138362134
+    },
+    {
+      "coefficient_standardized_h": -0.21724866018042052,
+      "contribution_h": 0.06599873156826096,
+      "description": "Actual minus scheduled port arrival, hours; signed.",
+      "group": "upstream_arrival",
+      "reference_value": 7.579295669792661,
+      "scale": 9.108905379791308,
+      "term": "port_arrival_deviation_h",
+      "value": 4.812069393035555
+    },
+    {
+      "coefficient_standardized_h": -0.04047249402614063,
+      "contribution_h": -0.04530706716029395,
+      "description": "max(0, planned first dispatch minus current port arrival), hours.",
+      "group": "dispatch_schedule",
+      "reference_value": 10.595307763174075,
+      "scale": 7.675731370644936,
+      "term": "hours_until_first_dispatch",
+      "value": 19.187930606964446
+    },
+    {
+      "coefficient_standardized_h": 1.564901871321057,
+      "contribution_h": -1.2687703410067521,
+      "description": "Known spacing between onward dispatch slots, hours.",
+      "group": "dispatch_schedule",
+      "reference_value": 8.379746835443038,
+      "scale": 2.935180746028611,
+      "term": "dispatch_interval_h",
+      "value": 6.0
+    },
+    {
+      "coefficient_standardized_h": 3.8575386083563865,
+      "contribution_h": 3.7829372329070585,
+      "description": "Current congestion multiplied by planned processing hours.",
+      "group": "port_processing",
+      "reference_value": 6.990787999774359,
+      "scale": 4.116243225597393,
+      "term": "congestion_processing_h",
+      "value": 11.027426732069122
+    },
+    {
+      "coefficient_standardized_h": 0.3028368636134815,
+      "contribution_h": -0.39714268624702886,
+      "description": "Sine of current arrival phase relative to the known dispatch timetable.",
+      "group": "dispatch_schedule",
+      "reference_value": -0.013904018337972666,
+      "scale": 0.7115794324301583,
+      "term": "dispatch_phase_sin",
+      "value": -0.947074980094257
+    },
+    {
+      "coefficient_standardized_h": 0.30015497968746674,
+      "contribution_h": 0.126245595543663,
+      "description": "Cosine of current arrival phase relative to the known dispatch timetable.",
+      "group": "dispatch_schedule",
+      "reference_value": 0.025752001793967867,
+      "scale": 0.7019958860421011,
+      "term": "dispatch_phase_cos",
+      "value": 0.32101243290480647
+    }
+  ],
+  "group_contributions": [
+    {
+      "contribution_h": 10.497381380496602,
+      "group": "port_processing",
+      "label": "Port processing and congestion"
+    },
+    {
+      "contribution_h": 2.2287193922748787,
+      "group": "inland_plan",
+      "label": "Inland travel plan"
+    },
+    {
+      "contribution_h": -1.584974498870412,
+      "group": "dispatch_schedule",
+      "label": "Dispatch timetable"
+    },
+    {
+      "contribution_h": 0.06599873156826096,
+      "group": "upstream_arrival",
+      "label": "Upstream arrival deviation"
+    }
+  ],
+  "predicted_delay_magnitude_h": 4.844565241901389,
+  "predicted_eta_utc": "2025-05-09T08:50:40.434870845+00:00",
+  "predicted_remaining_h": 52.03249584886613,
+  "predicted_signed_deviation_h": 4.844565241901389,
+  "predictor": "ridge_propagation_alpha_10",
+  "raw_remaining_h": 52.03249584886613,
+  "reconstruction_abs_error_h": 0.0,
+  "reference_remaining_h": 40.8253708433968,
+  "remaining_adjustment_h": 0.0,
+  "remaining_was_clipped": false,
+  "scheduled_delivery_utc": "2025-05-09T04:00:00+00:00",
+  "shipment_id": "SHP-000241",
+  "training_range_flags": []
+}
